@@ -4,7 +4,7 @@ import time
 from colorama import Fore,init
 init()
 
-http = requests.get("http://get-link.ir:8000/api/v2/crypto/").text
+http = requests.get("http://168.119.202.31:8000/api/v2/crypto/").text
 print(Fore.RED+""" 
   ████╗ ███████╗███╗   ███╗ ██████╗ ████████╗███████╗ █████╗ ███╗   ███╗
 ██╔══██╗██╔════╝████╗ ████║██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
